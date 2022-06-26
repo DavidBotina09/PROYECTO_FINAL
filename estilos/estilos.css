@@ -1,0 +1,800 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+.pagina_index .navegadora {
+  background-color: black;
+  font-size: 1.5rem; }
+  .pagina_index .navegadora:hover {
+    background-color: white; }
+  .pagina_index .navegadora:hover a {
+    color: black; }
+  .pagina_index .navegadora ul {
+    margin-right: 2%;
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
+    .pagina_index .navegadora ul li {
+      text-align: center;
+      margin: 1rem;
+      width: 10rem; }
+      .pagina_index .navegadora ul li:hover {
+        background-color: white;
+        transform: scale(1.3, 1.3);
+        transition: 0.5s; }
+      .pagina_index .navegadora ul li:hover a {
+        text-decoration: underline;
+        color: black;
+        transition: 0.2s; }
+      .pagina_index .navegadora ul li img {
+        border-radius: 45px;
+        border: 2px solid black; }
+      .pagina_index .navegadora ul li a {
+        color: white;
+        text-decoration: none; }
+
+.pagina_index header {
+  font-family: 'Tiro Gurmukhi', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 550px;
+  background-image: url(../imagenes/fondo-del-header.jpg);
+  background-size: cover;
+  opacity: 70%; }
+  .pagina_index header h1 {
+    font-size: 5rem; }
+
+.pagina_index .lineas {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%; }
+
+.pagina_index main .informacion, .pagina_index main .beneficios {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%; }
+  .pagina_index main .informacion h3, .pagina_index main .beneficios h3, .pagina_index main .informacion p, .pagina_index main .beneficios p {
+    font-family: 'Tiro Gurmukhi', serif;
+    text-align: center; }
+
+.pagina_index main .beneficios {
+  overflow: hidden;
+  text-align: center; }
+
+.pagina_index footer {
+  background-color: black;
+  text-align: center; }
+  .pagina_index footer .logo_facebook {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_index footer .logo_facebook:hover {
+      transform: scale(1.3, 1.3);
+      background-color: blue;
+      border-radius: 1rem; }
+  .pagina_index footer .logo_instagram {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_index footer .logo_instagram:hover {
+      transform: scale(1.3, 1.3);
+      background-color: red;
+      border-radius: 1rem; }
+  .pagina_index footer .logo_whats {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_index footer .logo_whats:hover {
+      transform: scale(1.3, 1.3);
+      background-color: green;
+      border-radius: 1rem; }
+  .pagina_index footer .ultima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    .pagina_index footer .ultima .logo_barber {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 4rem; }
+
+@media only screen and (max-width: 700px) {
+  .pagina_index .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_index .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_index .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_index .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_index .header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_index .header h1 {
+      font-size: 3rem; } }
+
+/*termina pagina principal*/
+.pagina_cortes .navegadora {
+  background-color: black;
+  font-size: 1.5rem; }
+  .pagina_cortes .navegadora:hover {
+    background-color: white; }
+  .pagina_cortes .navegadora:hover a {
+    color: black; }
+  .pagina_cortes .navegadora ul {
+    margin-right: 2%;
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
+    .pagina_cortes .navegadora ul li {
+      text-align: center;
+      margin: 1rem;
+      width: 10rem; }
+      .pagina_cortes .navegadora ul li:hover {
+        background-color: white;
+        transform: scale(1.3, 1.3);
+        transition: 0.5s; }
+      .pagina_cortes .navegadora ul li:hover a {
+        text-decoration: underline;
+        color: black;
+        transition: 0.2s; }
+      .pagina_cortes .navegadora ul li img {
+        border-radius: 45px;
+        border: 2px solid black; }
+      .pagina_cortes .navegadora ul li a {
+        color: white;
+        text-decoration: none; }
+
+.pagina_cortes header {
+  font-family: 'Tiro Gurmukhi', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  background-image: url(../imagenes/fondo-de-pagina-cortes.jpg);
+  background-size: cover;
+  opacity: 70%; }
+  .pagina_cortes header h1 {
+    font-size: 5rem;
+    color: white; }
+
+.pagina_cortes .lineas {
+  border: 0.1rem solid black;
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%; }
+
+.pagina_cortes .taper_fade {
+  overflow: hidden; }
+  .pagina_cortes .taper_fade .titulo_taper {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cortes .taper_fade .img_taper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cortes .taper_fade .img_taper img {
+      margin: 1rem;
+      border-radius: 30px; }
+      .pagina_cortes .taper_fade .img_taper img:hover {
+        transform: scale(1.1, 1.1);
+        transform: scale(1.1, 1.1);
+        border: 3px solid black;
+        transition: 0.5s; }
+  .pagina_cortes .taper_fade .iframe_taper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cortes .taper_fade .iframe_taper iframe {
+      margin: 1rem;
+      border-radius: 30px; }
+      .pagina_cortes .taper_fade .iframe_taper iframe:hover {
+        transform: scale(1.1, 1.1);
+        border: 3px solid black;
+        transition: 0.5s; }
+  .pagina_cortes .taper_fade .expli_taper {
+    border: 0.1rem solid gray;
+    text-align: center;
+    margin: 1rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    width: 60%;
+    height: 270px;
+    border-radius: 10px;
+    background-color: white;
+    overflow: auto; }
+
+.pagina_cortes footer {
+  background-color: black;
+  text-align: center; }
+  .pagina_cortes footer .logo_facebook {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_cortes footer .logo_facebook:hover {
+      transform: scale(1.3, 1.3);
+      background-color: blue;
+      border-radius: 1rem; }
+  .pagina_cortes footer .logo_instagram {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_cortes footer .logo_instagram:hover {
+      transform: scale(1.3, 1.3);
+      background-color: red;
+      border-radius: 1rem; }
+  .pagina_cortes footer .logo_whats {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_cortes footer .logo_whats:hover {
+      transform: scale(1.3, 1.3);
+      background-color: green;
+      border-radius: 1rem; }
+  .pagina_cortes footer .ultima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    .pagina_cortes footer .ultima .logo_barber {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 4rem; }
+
+@media only screen and (max-width: 700px) {
+  .pagina_cortes .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_cortes .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_cortes .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_cortes .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_cortes .header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_cortes .header h1 {
+      font-size: 3rem; }
+  .pagina_cortes .taper_fade .img_taper img {
+    width: 15rem;
+    height: 15rem; }
+  .pagina_cortes .taper_fade .iframe_taper iframe {
+    width: 25rem;
+    height: 14rem; }
+  .pagina_cortes .taper_fade .expli_taper {
+    width: 90%;
+    margin: 0rem;
+    margin-left: 5%;
+    margin-right: 5%; } }
+
+/*termina la pagina de cortes*/
+.pagina_tijeras .navegadora {
+  background-color: black;
+  font-size: 1.5rem; }
+  .pagina_tijeras .navegadora:hover {
+    background-color: white; }
+  .pagina_tijeras .navegadora:hover a {
+    color: black; }
+  .pagina_tijeras .navegadora ul {
+    margin-right: 2%;
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
+    .pagina_tijeras .navegadora ul li {
+      text-align: center;
+      margin: 1rem;
+      width: 10rem; }
+      .pagina_tijeras .navegadora ul li:hover {
+        background-color: white;
+        transform: scale(1.3, 1.3);
+        transition: 0.5s; }
+      .pagina_tijeras .navegadora ul li:hover a {
+        text-decoration: underline;
+        color: black;
+        transition: 0.2s; }
+      .pagina_tijeras .navegadora ul li img {
+        border-radius: 45px;
+        border: 2px solid black; }
+      .pagina_tijeras .navegadora ul li a {
+        color: white;
+        text-decoration: none; }
+
+.pagina_tijeras header {
+  font-family: 'Tiro Gurmukhi', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 550px;
+  background: url(../imagenes/fondo-pagina-tijeras.jpeg);
+  background-size: cover;
+  opacity: 70%; }
+  .pagina_tijeras header h1 {
+    font-size: 5rem; }
+
+.pagina_tijeras .lineas {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 1px solid black; }
+
+.pagina_tijeras main {
+  overflow: hidden;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .pagina_tijeras main .teoria h2 {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_tijeras main .teoria .filas div {
+    border: 3px solid black;
+    border-radius: 4rem;
+    width: 30%;
+    margin-top: 2rem;
+    margin-left: 7.5rem;
+    margin-right: 7.5rem;
+    margin-bottom: 2rem;
+    padding: 1rem; }
+    .pagina_tijeras main .teoria .filas div img {
+      border-radius: 3rem;
+      margin-left: 0.6rem; }
+  .pagina_tijeras main .historia .origen {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+    .pagina_tijeras main .historia .origen h2 {
+      font-family: 'Tiro Gurmukhi', serif;
+      text-align: center; }
+    .pagina_tijeras main .historia .origen p {
+      text-align: center;
+      font-size: 1.1rem; }
+    .pagina_tijeras main .historia .origen img {
+      border: 2px solid black;
+      border-radius: 3rem;
+      margin-left: 16.5%; }
+  .pagina_tijeras main .historia .evolucion {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; }
+    .pagina_tijeras main .historia .evolucion h2 {
+      font-family: 'Tiro Gurmukhi', serif;
+      text-align: center; }
+    .pagina_tijeras main .historia .evolucion p {
+      text-align: center;
+      font-size: 1.1rem; }
+    .pagina_tijeras main .historia .evolucion img {
+      border: 2px solid black;
+      border-radius: 3rem;
+      margin-left: 9%; }
+  .pagina_tijeras main .practica h2 {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_tijeras main .practica .video_practica div iframe {
+    margin-left: 16%;
+    border-radius: 3rem;
+    border: 3px solid black; }
+  .pagina_tijeras main .practica .video_practica div .video_tres {
+    margin-top: 2rem;
+    margin-left: 33%; }
+
+.pagina_tijeras footer {
+  background-color: black;
+  text-align: center; }
+  .pagina_tijeras footer .logo_facebook {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_tijeras footer .logo_facebook:hover {
+      transform: scale(1.3, 1.3);
+      background-color: blue;
+      border-radius: 1rem; }
+  .pagina_tijeras footer .logo_instagram {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_tijeras footer .logo_instagram:hover {
+      transform: scale(1.3, 1.3);
+      background-color: red;
+      border-radius: 1rem; }
+  .pagina_tijeras footer .logo_whats {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_tijeras footer .logo_whats:hover {
+      transform: scale(1.3, 1.3);
+      background-color: green;
+      border-radius: 1rem; }
+  .pagina_tijeras footer .ultima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    .pagina_tijeras footer .ultima .logo_barber {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 4rem; }
+
+@media only screen and (max-width: 700px) {
+  .pagina_tijeras .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_tijeras .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_tijeras .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_tijeras .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_tijeras .header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_tijeras .header h1 {
+      font-size: 3rem; }
+  .pagina_tijeras main {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+    .pagina_tijeras main .teoria .filas div {
+      width: 100%;
+      margin-top: 1rem;
+      margin-left: 0rem;
+      margin-right: 0rem;
+      margin-bottom: 1rem; }
+      .pagina_tijeras main .teoria .filas div img {
+        margin-left: 0rem; }
+    .pagina_tijeras main .historia .origen img {
+      width: 100%;
+      margin-left: 0%; }
+    .pagina_tijeras main .historia .evolucion img {
+      width: 100%;
+      height: auto;
+      margin-left: 0%; }
+    .pagina_tijeras main .practica .video_practica div iframe {
+      width: 100%;
+      height: 13rem;
+      margin-left: 0%; }
+    .pagina_tijeras main .practica .video_practica div .video_tres {
+      margin-top: 0rem;
+      margin-left: 0%; } }
+
+/*termina la pagina de tijeras*/
+.pagina_cuchillas .navegadora {
+  background-color: black;
+  font-size: 1.5rem; }
+  .pagina_cuchillas .navegadora:hover {
+    background-color: white; }
+  .pagina_cuchillas .navegadora:hover a {
+    color: black; }
+  .pagina_cuchillas .navegadora ul {
+    margin-right: 2%;
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
+    .pagina_cuchillas .navegadora ul li {
+      text-align: center;
+      margin: 1rem;
+      width: 10rem; }
+      .pagina_cuchillas .navegadora ul li:hover {
+        background-color: white;
+        transform: scale(1.3, 1.3);
+        transition: 0.5s; }
+      .pagina_cuchillas .navegadora ul li:hover a {
+        text-decoration: underline;
+        color: black;
+        transition: 0.2s; }
+      .pagina_cuchillas .navegadora ul li img {
+        border-radius: 45px;
+        border: 2px solid black; }
+      .pagina_cuchillas .navegadora ul li a {
+        color: white;
+        text-decoration: none; }
+
+.pagina_cuchillas header {
+  font-family: 'Tiro Gurmukhi', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 550px;
+  background: url(../imagenes/fondo-pagina-cuchillas.jpeg);
+  background-size: cover;
+  opacity: 70%; }
+  .pagina_cuchillas header h1 {
+    font-size: 5rem;
+    color: white; }
+
+.pagina_cuchillas .lineas {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+  border: 1px solid black; }
+
+.pagina_cuchillas main {
+  overflow: hidden;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%; }
+  .pagina_cuchillas main .info_cuchilla .informacion, .pagina_cuchillas .pagina_index main .info_cuchilla .beneficios, .pagina_index .pagina_cuchillas main .info_cuchilla .beneficios {
+    text-align: center; }
+    .pagina_cuchillas main .info_cuchilla .informacion h2, .pagina_cuchillas .pagina_index main .info_cuchilla .beneficios h2, .pagina_index .pagina_cuchillas main .info_cuchilla .beneficios h2 {
+      font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cuchillas main .info_cuchilla .video_info {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .pagina_cuchillas main .info_cuchilla .video_info iframe {
+      border-radius: 3rem;
+      border: 2px solid black; }
+  .pagina_cuchillas main .manejo .texto_manejo h2 {
+    text-align: center;
+    font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cuchillas main .manejo .texto_manejo p {
+    text-align: center; }
+  .pagina_cuchillas main .manejo .imagen_manejo {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cuchillas main .manejo .imagen_manejo img {
+      border: 2px solid black;
+      border-radius: 3rem; }
+  .pagina_cuchillas main .manejo .video_manejo {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cuchillas main .manejo .video_manejo iframe {
+      border: 2px solid black;
+      border-radius: 3rem; }
+  .pagina_cuchillas main .tipos_usos .maquina {
+    text-align: center; }
+    .pagina_cuchillas main .tipos_usos .maquina h3 {
+      font-family: 'Tiro Gurmukhi', serif; }
+  .pagina_cuchillas main .tipos_usos .ejemplos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .pagina_cuchillas main .tipos_usos .ejemplos img {
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 2px solid black; }
+    .pagina_cuchillas main .tipos_usos .ejemplos iframe {
+      border-radius: 2rem;
+      border: 2px solid black; }
+  .pagina_cuchillas main .freestyle div {
+    text-align: center; }
+    .pagina_cuchillas main .freestyle div h2 {
+      font-family: 'Tiro Gurmukhi', serif; }
+    .pagina_cuchillas main .freestyle div iframe {
+      border: 2px solid black;
+      border-radius: 3rem; }
+
+.pagina_cuchillas footer {
+  background-color: black;
+  text-align: center; }
+  .pagina_cuchillas footer .logo_facebook {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_cuchillas footer .logo_facebook:hover {
+      transform: scale(1.3, 1.3);
+      background-color: blue;
+      border-radius: 1rem; }
+  .pagina_cuchillas footer .logo_instagram {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_cuchillas footer .logo_instagram:hover {
+      transform: scale(1.3, 1.3);
+      background-color: red;
+      border-radius: 1rem; }
+  .pagina_cuchillas footer .logo_whats {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_cuchillas footer .logo_whats:hover {
+      transform: scale(1.3, 1.3);
+      background-color: green;
+      border-radius: 1rem; }
+  .pagina_cuchillas footer .ultima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    .pagina_cuchillas footer .ultima .logo_barber {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 4rem; }
+
+@media only screen and (max-width: 700px) {
+  .pagina_cuchillas .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_cuchillas .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_cuchillas .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_cuchillas .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_cuchillas header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_cuchillas header h1 {
+      font-size: 3rem; }
+  .pagina_cuchillas main {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%; }
+    .pagina_cuchillas main .manejo .imagen_manejo img {
+      width: 90%;
+      height: 13rem;
+      margin: auto; }
+    .pagina_cuchillas main .manejo .video_manejo iframe {
+      width: 90%;
+      margin-top: 1rem;
+      height: 13rem; }
+    .pagina_cuchillas main .tipos_usos .ejemplos iframe {
+      width: 90%; }
+    .pagina_cuchillas main .freestyle div iframe {
+      width: 100%;
+      height: 15rem; } }
+
+/*termina la pagina de cuchillas*/
+.pagina_usuarios .navegadora {
+  background-color: black;
+  font-size: 1.5rem; }
+  .pagina_usuarios .navegadora:hover {
+    background-color: white; }
+  .pagina_usuarios .navegadora:hover a {
+    color: black; }
+  .pagina_usuarios .navegadora ul {
+    margin-right: 2%;
+    margin-bottom: 0px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: auto; }
+    .pagina_usuarios .navegadora ul li {
+      text-align: center;
+      margin: 1rem;
+      width: 10rem; }
+      .pagina_usuarios .navegadora ul li:hover {
+        background-color: white;
+        transform: scale(1.3, 1.3);
+        transition: 0.5s; }
+      .pagina_usuarios .navegadora ul li:hover a {
+        text-decoration: underline;
+        color: black;
+        transition: 0.2s; }
+      .pagina_usuarios .navegadora ul li img {
+        border-radius: 45px;
+        border: 2px solid black; }
+      .pagina_usuarios .navegadora ul li a {
+        color: white;
+        text-decoration: none; }
+
+.pagina_usuarios header {
+  font-family: 'Tiro Gurmukhi', serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  height: 550px;
+  background: url(../imagenes/fondo-pagina-usuarios.jpeg);
+  background-size: cover;
+  opacity: 70%; }
+  .pagina_usuarios header h1 {
+    font-size: 5rem; }
+
+.pagina_usuarios main .formulario {
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  border: 2px solid black;
+  border-radius: 3rem;
+  padding: 1rem; }
+  .pagina_usuarios main .formulario .boton {
+    background-color: black;
+    color: white; }
+    .pagina_usuarios main .formulario .boton:hover {
+      background-color: white;
+      color: black;
+      border: 1px solid black; }
+
+.pagina_usuarios footer {
+  background-color: black;
+  text-align: center; }
+  .pagina_usuarios footer .logo_facebook {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_usuarios footer .logo_facebook:hover {
+      transform: scale(1.3, 1.3);
+      background-color: blue;
+      border-radius: 1rem; }
+  .pagina_usuarios footer .logo_instagram {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_usuarios footer .logo_instagram:hover {
+      transform: scale(1.3, 1.3);
+      background-color: red;
+      border-radius: 1rem; }
+  .pagina_usuarios footer .logo_whats {
+    width: 3rem;
+    height: 3rem;
+    margin: 2rem; }
+    .pagina_usuarios footer .logo_whats:hover {
+      transform: scale(1.3, 1.3);
+      background-color: green;
+      border-radius: 1rem; }
+  .pagina_usuarios footer .ultima {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white; }
+    .pagina_usuarios footer .ultima .logo_barber {
+      width: 8rem;
+      height: 8rem;
+      border-radius: 4rem; }
+
+@media only screen and (max-width: 700px) {
+  .pagina_usuarios .navegadora {
+    height: auto;
+    font-size: 1.2rem; }
+    .pagina_usuarios .navegadora ul {
+      flex-direction: column;
+      margin-right: 8%; }
+      .pagina_usuarios .navegadora ul li {
+        margin: 0.5rem; }
+        .pagina_usuarios .navegadora ul li a {
+          text-decoration: none;
+          text-align: center; }
+  .pagina_usuarios header {
+    height: 17rem;
+    background-size: 100%;
+    opacity: 50%; }
+    .pagina_usuarios header h1 {
+      font-size: 3rem; }
+  .pagina_usuarios main .formulario {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%; } }
+
+/*termina la pagina de usuarios*/

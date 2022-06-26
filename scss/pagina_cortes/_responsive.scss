@@ -1,0 +1,47 @@
+@media only screen and (max-width:700px){
+    .navegadora{
+        height: auto;
+        font-size: 1.2rem;
+        ul{ 
+            flex-direction: column;
+            margin-right: 8%;
+            li{
+                margin: 0.5rem;
+                a{
+                    text-decoration: none;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+
+    .header{
+        height: 17rem;
+        background-size: 100%;
+        opacity: 50%;
+        h1{
+            font-size: 3rem;
+        }
+    }
+
+    .taper_fade{
+        .img_taper img{
+            width: 15rem;
+            height: 15rem;
+        }
+        .iframe_taper iframe{
+            width: 25rem;
+            height: 14rem;
+        }
+        .expli_taper{
+            width: 90%;
+            margin: 0rem;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+    }
+
+    
+
+}

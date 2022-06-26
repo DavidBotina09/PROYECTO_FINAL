@@ -1,0 +1,49 @@
+@import "./mixins";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.pagina_index{
+@import "./pagina_index/nav.scss";
+@import "./pagina_index/header.scss";
+@import "./pagina_index/main.scss";
+@import "./pagina_index/footer.scss";
+@import "./pagina_index/responsive.scss";
+}
+/*termina pagina principal*/
+.pagina_cortes{
+@import "./pagina_cortes/nav.scss";
+@import "./pagina_cortes/header.scss";
+@import "./pagina_cortes/main.scss";
+@import "./pagina_cortes/footer.scss";
+@import "./pagina_cortes/responsive.scss";
+}
+/*termina la pagina de cortes*/
+.pagina_tijeras{
+    @import "./pagina_tijeras/nav.scss";
+    @import "./pagina_tijeras/header.scss";
+    @import "./pagina_tijeras/main.scss";
+    @import "./pagina_tijeras/footer.scss";
+    @import "./pagina_tijeras/responsive.scss";
+}
+/*termina la pagina de tijeras*/
+.pagina_cuchillas{
+    @import "./pagina_cuchillas/nav.scss";
+    @import "./pagina_cuchillas/header.scss";
+    @import "./pagina_cuchillas/main.scss";
+    @import "./pagina_cuchillas/footer.scss";
+    @import "./pagina_cuchillas/responsive.scss";
+}
+/*termina la pagina de cuchillas*/
+.pagina_usuarios{
+    @import "./pagina_usuarios/nav.scss";
+    @import "./pagina_usuarios/header.scss";
+    @import "./pagina_usuarios/main.scss";
+    @import "./pagina_usuarios/footer.scss";
+    @import "./pagina_usuarios/responsive.scss";
+}
+/*termina la pagina de usuarios*/
+
+
